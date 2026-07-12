@@ -1,14 +1,51 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>SAMA | Strategic Alliance for Medical Access</title>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>SAMA | Strategic Alliance for Medical Access</title>
+<style>
+:root{--bg:#f7f4ee;--card:#ffffff;--text:#1f1a17;--muted:#6a625c;--line:#ddd6cf;--accent:#0b6b73;--accent2:#0f8a95;--shadow:0 14px 40px rgba(31,26,23,.08);--radius:24px}
+*{box-sizing:border-box}html,body{margin:0}body{font-family:Inter,Arial,sans-serif;background:var(--bg);color:var(--text);line-height:1.6}
+a{color:inherit;text-decoration:none}.wrap{max-width:1100px;margin:0 auto;padding:24px}.hero{min-height:92vh;display:grid;align-items:center}.nav{display:flex;justify-content:space-between;align-items:center;padding:8px 0 32px}.brand{font-weight:800;letter-spacing:.02em}.pill{display:inline-flex;gap:8px;align-items:center;padding:10px 14px;border:1px solid var(--line);border-radius:999px;background:rgba(255,255,255,.6);font-size:.92rem}.grid{display:grid;grid-template-columns:1.2fr .8fr;gap:28px;align-items:center}.eyebrow{text-transform:uppercase;letter-spacing:.16em;font-size:.78rem;color:var(--accent);font-weight:700;margin-bottom:14px}.title{font-family:Georgia,'Times New Roman',serif;font-size:clamp(3rem,8vw,5.8rem);line-height:.95;margin:0 0 18px}.lead{font-size:clamp(1.06rem,2vw,1.25rem);color:var(--muted);max-width:58ch}.actions{display:flex;gap:12px;flex-wrap:wrap;margin-top:28px}.btn{padding:14px 20px;border-radius:999px;border:1px solid var(--line);font-weight:700}.btn.primary{background:var(--accent);border-color:var(--accent);color:#fff}.btn.secondary{background:#fff;color:var(--text)}.card{background:var(--card);border:1px solid rgba(31,26,23,.08);border-radius:var(--radius);padding:28px;box-shadow:var(--shadow)}.stat{display:grid;gap:14px}.stat h3{margin:0;font-size:1rem}.stat p{margin:0;color:var(--muted)}.list{display:grid;gap:12px;margin-top:16px}.list div{padding:12px 0;border-top:1px solid var(--line)}.section{padding:40px 0 0}.cols{display:grid;grid-template-columns:repeat(3,1fr);gap:18px}.tile{background:rgba(255,255,255,.72);border:1px solid var(--line);border-radius:20px;padding:20px}.footer{padding:42px 0 18px;color:var(--muted);font-size:.95rem}.small{font-size:.95rem;color:var(--muted)}@media (max-width:840px){.grid,.cols{grid-template-columns:1fr}.hero{min-height:auto;padding:18px 0 30px}.title{font-size:clamp(2.6rem,12vw,4rem)}}
+</style>
 </head>
 <body>
-  <h1>Strategic Alliance for Medical Access</h1>
-  <p>Welcome to SAMA.</p>
-  <p>We are building access-driven healthcare initiatives focused on innovation, equity, and medical collaboration.</p>
-  <p>More updates coming soon.</p>
+  <div class="wrap hero">
+    <header class="nav">
+      <div class="brand">SAMA</div>
+      <div class="pill">Strategic Alliance for Medical Access</div>
+    </header>
+    <main class="grid">
+      <section>
+        <div class="eyebrow">Healthcare access • innovation • collaboration</div>
+        <h1 class="title">Building access-driven healthcare initiatives.</h1>
+        <p class="lead">SAMA is a nonprofit initiative focused on improving medical access, supporting ethical healthcare innovation, and building collaborative pathways for underserved communities.</p>
+        <div class="actions">
+          <a class="btn primary" href="#contact">Partner with SAMA</a>
+          <a class="btn secondary" href="#about">Learn more</a>
+        </div>
+      </section>
+      <aside class="card">
+        <div class="stat">
+          <h3>What we do</h3>
+          <p>We connect healthcare ideas with practical implementation, regulatory awareness, and community-focused impact.</p>
+          <div class="list">
+            <div><strong>Access:</strong> Helping people reach needed healthcare solutions.</div>
+            <div><strong>Innovation:</strong> Supporting responsible medical ideas and pilots.</div>
+            <div><strong>Collaboration:</strong> Working with partners, researchers, and communities.</div>
+          </div>
+        </div>
+      </aside>
+    </main>
+  </div>
+  <section id="about" class="wrap section">
+    <div class="cols">
+      <div class="tile"><h3>Mission</h3><p class="small">To support equitable access to healthcare through evidence-based, ethical, and community-centered initiatives.</p></div>
+      <div class="tile"><h3>Focus</h3><p class="small">Medical access, innovation, regulatory awareness, and cross-border healthcare support.</p></div>
+      <div class="tile" id="contact"><h3>Contact</h3><p class="small">Email: samaorg.ca@gmail.com<br/>Location: Ontario, Canada</p></div>
+    </div>
+  </section>
+  <footer class="wrap footer">© 2026 Strategic Alliance for Medical Access</footer>
 </body>
 </html>
